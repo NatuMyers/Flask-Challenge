@@ -1,0 +1,16 @@
+actionid: py27
+msg: installpkg
+cmdargs: ['/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27/bin/pip', 'install', '-U', '--no-deps', '/Users/natumyers/Code/flask/developer-code-challenge/.tox/dist/gistapi-0.1.0.zip']
+env: {'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '377', 'LOGNAME': 'natumyers', 'USER': 'natumyers', 'PATH': '/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'HOME': '/Users/natumyers', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_CA.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.qxlccOowXt/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', 'SECURITYSESSIONID': '186a7', 'XPC_FLAGS': '0x0', 'PYTHONHASHSEED': '43465157', 'TMPDIR': '/var/folders/sj/cg0q3lbx785ds7bjtl01nrc80000gp/T/', 'TERM_SESSION_ID': '02AE198C-18BA-4120-92DB-A7C593B4B805', 'XPC_SERVICE_NAME': '0', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.o0ULJ0wIIK/Listeners', 'VIRTUAL_ENV': '/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27', 'SHELL': '/bin/bash', '_': '/usr/local/bin/tox', 'OLDPWD': '/Users/natumyers/Code/flask', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x52', 'PWD': '/Users/natumyers/Code/flask/developer-code-challenge'}
+
+Processing ./.tox/dist/gistapi-0.1.0.zip
+Building wheels for collected packages: gistapi
+  Running setup.py bdist_wheel for gistapi: started
+  Running setup.py bdist_wheel for gistapi: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/dc/01/57/28f7ae3878f390cdc0db61574794b15b53cdb040fa3e18baac
+Successfully built gistapi
+Installing collected packages: gistapi
+  Found existing installation: gistapi 0.1.0
+    Uninstalling gistapi-0.1.0:
+      Successfully uninstalled gistapi-0.1.0
+Successfully installed gistapi-0.1.0

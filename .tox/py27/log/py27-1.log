@@ -1,0 +1,68 @@
+actionid: py27
+msg: getenv
+cmdargs: ['/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27/bin/pip', 'install', '-rrequirements.txt', 'pytest']
+env: {'VERSIONER_PYTHON_PREFER_32_BIT': 'no', 'TERM_PROGRAM_VERSION': '377', 'LOGNAME': 'natumyers', 'USER': 'natumyers', 'PATH': '/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'HOME': '/Users/natumyers', 'TERM_PROGRAM': 'Apple_Terminal', 'LANG': 'en_CA.UTF-8', 'TERM': 'xterm-256color', 'Apple_PubSub_Socket_Render': '/private/tmp/com.apple.launchd.qxlccOowXt/Render', 'VERSIONER_PYTHON_VERSION': '2.7', 'SHLVL': '1', 'SECURITYSESSIONID': '186a7', 'XPC_FLAGS': '0x0', 'PYTHONHASHSEED': '1019421509', 'TMPDIR': '/var/folders/sj/cg0q3lbx785ds7bjtl01nrc80000gp/T/', 'TERM_SESSION_ID': '02AE198C-18BA-4120-92DB-A7C593B4B805', 'XPC_SERVICE_NAME': '0', 'SSH_AUTH_SOCK': '/private/tmp/com.apple.launchd.o0ULJ0wIIK/Listeners', 'VIRTUAL_ENV': '/Users/natumyers/Code/flask/developer-code-challenge/.tox/py27', 'SHELL': '/bin/bash', '_': '/usr/local/bin/tox', 'OLDPWD': '/Users/natumyers/Code/flask', '__CF_USER_TEXT_ENCODING': '0x1F6:0x0:0x52', 'PWD': '/Users/natumyers/Code/flask/developer-code-challenge'}
+
+Collecting pytest
+  Downloading pytest-3.0.6-py2.py3-none-any.whl (172kB)
+Collecting cffi==1.5.2 (from -r requirements.txt (line 7))
+  Downloading cffi-1.5.2-cp27-cp27m-macosx_10_10_intel.whl (208kB)
+Collecting cryptography==1.2.3 (from -r requirements.txt (line 8))
+  Downloading cryptography-1.2.3-cp27-cp27m-macosx_10_10_intel.whl (2.3MB)
+Collecting enum34==1.1.2 (from -r requirements.txt (line 9))
+  Downloading enum34-1.1.2.tar.gz (46kB)
+Collecting Flask==0.10.1 (from -r requirements.txt (line 10))
+  Downloading Flask-0.10.1.tar.gz (544kB)
+Collecting gunicorn==19.4.5 (from -r requirements.txt (line 11))
+  Downloading gunicorn-19.4.5-py2.py3-none-any.whl (112kB)
+Collecting idna==2.0 (from -r requirements.txt (line 12))
+  Downloading idna-2.0-py2.py3-none-any.whl (61kB)
+Collecting ipaddress==1.0.16 (from -r requirements.txt (line 13))
+  Downloading ipaddress-1.0.16-py27-none-any.whl
+Collecting itsdangerous==0.24 (from -r requirements.txt (line 14))
+  Downloading itsdangerous-0.24.tar.gz (46kB)
+Collecting Jinja2==2.8 (from -r requirements.txt (line 15))
+  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)
+Collecting MarkupSafe==0.23 (from -r requirements.txt (line 16))
+  Downloading MarkupSafe-0.23.tar.gz
+Collecting ndg-httpsclient==0.4.0 (from -r requirements.txt (line 17))
+  Downloading ndg_httpsclient-0.4.0.tar.gz
+Collecting pyasn1==0.1.9 (from -r requirements.txt (line 18))
+  Using cached pyasn1-0.1.9-py2.py3-none-any.whl
+Collecting pycparser==2.14 (from -r requirements.txt (line 19))
+  Downloading pycparser-2.14.tar.gz (223kB)
+Collecting pyopenssl==0.15.1 (from -r requirements.txt (line 20))
+  Downloading pyOpenSSL-0.15.1-py2.py3-none-any.whl (102kB)
+Collecting requests==2.9.1 (from -r requirements.txt (line 21))
+  Downloading requests-2.9.1-py2.py3-none-any.whl (501kB)
+Requirement already satisfied: six==1.10.0 in ./.tox/py27/lib/python2.7/site-packages (from -r requirements.txt (line 22))
+Collecting Werkzeug==0.11.4 (from -r requirements.txt (line 23))
+  Downloading Werkzeug-0.11.4-py2.py3-none-any.whl (305kB)
+Requirement already satisfied: setuptools in ./.tox/py27/lib/python2.7/site-packages (from pytest)
+Collecting py>=1.4.29 (from pytest)
+  Downloading py-1.4.32-py2.py3-none-any.whl (82kB)
+Requirement already satisfied: packaging>=16.8 in ./.tox/py27/lib/python2.7/site-packages (from setuptools->pytest)
+Requirement already satisfied: appdirs>=1.4.0 in ./.tox/py27/lib/python2.7/site-packages (from setuptools->pytest)
+Requirement already satisfied: pyparsing in ./.tox/py27/lib/python2.7/site-packages (from packaging>=16.8->setuptools->pytest)
+Building wheels for collected packages: enum34, Flask, itsdangerous, MarkupSafe, ndg-httpsclient, pycparser
+  Running setup.py bdist_wheel for enum34: started
+  Running setup.py bdist_wheel for enum34: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/9a/ad/df/8e65f3218a057a35ae65dc70f242a3cf06a7d602a53f0eb9b9
+  Running setup.py bdist_wheel for Flask: started
+  Running setup.py bdist_wheel for Flask: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/b6/09/65/5fcf16f74f334a215447c26769e291c41883862fe0dc7c1430
+  Running setup.py bdist_wheel for itsdangerous: started
+  Running setup.py bdist_wheel for itsdangerous: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/fc/a8/66/24d655233c757e178d45dea2de22a04c6d92766abfb741129a
+  Running setup.py bdist_wheel for MarkupSafe: started
+  Running setup.py bdist_wheel for MarkupSafe: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/a3/fa/dc/0198eed9ad95489b8a4f45d14dd5d2aee3f8984e46862c5748
+  Running setup.py bdist_wheel for ndg-httpsclient: started
+  Running setup.py bdist_wheel for ndg-httpsclient: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/c9/88/f1/348d5ec506bef5a2a8351243028289a7bb9513b8dd8bbf1c14
+  Running setup.py bdist_wheel for pycparser: started
+  Running setup.py bdist_wheel for pycparser: finished with status 'done'
+  Stored in directory: /Users/natumyers/Library/Caches/pip/wheels/9b/f4/2e/d03e949a551719a1ffcb659f2c63d8444f4df12e994ce52112
+Successfully built enum34 Flask itsdangerous MarkupSafe ndg-httpsclient pycparser
+Installing collected packages: py, pytest, pycparser, cffi, idna, ipaddress, pyasn1, enum34, cryptography, Werkzeug, MarkupSafe, Jinja2, itsdangerous, Flask, gunicorn, pyopenssl, ndg-httpsclient, requests
+Successfully installed Flask-0.10.1 Jinja2-2.8 MarkupSafe-0.23 Werkzeug-0.11.4 cffi-1.5.2 cryptography-1.2.3 enum34-1.1.2 gunicorn-19.4.5 idna-2.0 ipaddress-1.0.16 itsdangerous-0.24 ndg-httpsclient-0.4.0 py-1.4.32 pyasn1-0.1.9 pycparser-2.14 pyopenssl-0.15.1 pytest-3.0.6 requests-2.9.1

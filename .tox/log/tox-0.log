@@ -1,0 +1,42 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/usr/bin/python', local('/Users/natumyers/Code/flask/developer-code-challenge/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/Users/natumyers/Code/flask/developer-code-challenge/.tox/dist')]
+env: None
+
+running sdist
+running egg_info
+writing gistapi.egg-info/PKG-INFO
+writing top-level names to gistapi.egg-info/top_level.txt
+writing dependency_links to gistapi.egg-info/dependency_links.txt
+reading manifest file 'gistapi.egg-info/SOURCES.txt'
+writing manifest file 'gistapi.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt
+
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating gistapi-0.1.0
+creating gistapi-0.1.0/gistapi
+creating gistapi-0.1.0/gistapi.egg-info
+making hard links in gistapi-0.1.0...
+hard linking setup.py -> gistapi-0.1.0
+hard linking gistapi/__init__.py -> gistapi-0.1.0/gistapi
+hard linking gistapi/gistapi.py -> gistapi-0.1.0/gistapi
+hard linking gistapi.egg-info/PKG-INFO -> gistapi-0.1.0/gistapi.egg-info
+hard linking gistapi.egg-info/SOURCES.txt -> gistapi-0.1.0/gistapi.egg-info
+hard linking gistapi.egg-info/dependency_links.txt -> gistapi-0.1.0/gistapi.egg-info
+hard linking gistapi.egg-info/top_level.txt -> gistapi-0.1.0/gistapi.egg-info
+Writing gistapi-0.1.0/setup.cfg
+creating '.tox/dist/gistapi-0.1.0.zip' and adding 'gistapi-0.1.0' to it
+adding 'gistapi-0.1.0/PKG-INFO'
+adding 'gistapi-0.1.0/setup.cfg'
+adding 'gistapi-0.1.0/setup.py'
+adding 'gistapi-0.1.0/gistapi/__init__.py'
+adding 'gistapi-0.1.0/gistapi/gistapi.py'
+adding 'gistapi-0.1.0/gistapi.egg-info/dependency_links.txt'
+adding 'gistapi-0.1.0/gistapi.egg-info/PKG-INFO'
+adding 'gistapi-0.1.0/gistapi.egg-info/SOURCES.txt'
+adding 'gistapi-0.1.0/gistapi.egg-info/top_level.txt'
+removing 'gistapi-0.1.0' (and everything under it)
